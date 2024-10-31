@@ -12,8 +12,6 @@ color_palette(n = 3, color_name = "set3", preview_shape = "bar")
 \item{color_name}{Easy name for color, e.g., "blue", "purple" (default is "set3").}
 
 \item{preview_shape}{Shape of preview: "bar", "circle" (default is "bar").}
-
-\item{brightness}{Adjusts brightness; values between 0.5 (darker) to 1.5 (lighter) (default is 1).}
 }
 \value{
 A vector of customized color codes.
@@ -23,5 +21,5 @@ Provides a curated selection of beautiful color palettes with simplified color n
 optional brightness adjustment, and preview options.
 }
 \examples{
-color_palette(5, color_name = "blue", brightness = 1.2, preview_shape = "circle")
+color_palette(5, color_name = "blue", preview_shape = "circle")
 }
