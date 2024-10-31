@@ -5,12 +5,11 @@
 #'
 #' @param n Number of colors to generate (default is 3).
 #' @param color_name Easy name for color, e.g., "blue", "purple" (default is "set3").
-#' @param brightness Adjusts brightness; values between 0.5 (darker) to 1.5 (lighter) (default is 1).
 #' @param preview_shape Shape of preview: "bar", "circle" (default is "bar").
 #'
 #' @return A vector of customized color codes.
 #' @examples
-#' color_palette(5, color_name = "blue", brightness = 1.2, preview_shape = "circle")
+#' color_palette(5, color_name = "blue", preview_shape = "circle")
 color_palette <- function(n = 3, color_name = "set3", preview_shape = "bar") {
   library("RColorBrewer")
 
