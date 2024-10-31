@@ -8,6 +8,7 @@
 #' @param preview_shape Shape of preview: "bar", "circle" (default is "bar").
 #'
 #' @return A vector of customized color codes.
+#' @export
 #' @examples
 #' color_palette(5, color_name = "blue", preview_shape = "circle")
 color_palette <- function(n = 3, color_name = "set3", preview_shape = "bar") {
