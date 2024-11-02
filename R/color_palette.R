@@ -112,5 +112,5 @@ color_palette <- function(n = 3, color_name = "set3", preview_shape = "bar") {
          xlim = c(0.5, n + 0.5), axes = FALSE, xlab = "", ylab = "", main = paste("Preview:", color_name))
   }
 
-  return(colors)
+  return(colors[1:n])
 }
