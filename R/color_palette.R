@@ -14,6 +14,14 @@
 color_palette <- function(n = 3, color_name = "set3", preview_shape = "bar") {
   library("RColorBrewer")
 
+  if (n <= 0) {
+    stop("Invalid color number. Please try again.")
+  }
+
+  if (preview_shape != "bar" || preview_shape != "circle") {
+    stop("Invalid preview shape. Please use bar or circle.")
+  }
+
   # Define a lookup list for easy color names
   color_map <- list(
     blue = "Blues",
