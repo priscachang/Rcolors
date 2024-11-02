@@ -18,7 +18,7 @@ color_palette <- function(n = 3, color_name = "set3", preview_shape = "bar") {
     stop("Invalid color number. Please try again.")
   }
 
-  if (preview_shape != "bar" || preview_shape != "circle") {
+  if (preview_shape != "bar" && preview_shape != "circle") {
     stop("Invalid preview shape. Please use bar or circle.")
   }
 
